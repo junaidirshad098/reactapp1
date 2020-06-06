@@ -31,6 +31,9 @@ jobs:
       with:
       # Yarn command
        cmd: install
+       
+    - name: Yarn build
+      run: yarn build   
        # NPM_AUTH_TOKEN      
     - name: surge
       run: npm install -g surge

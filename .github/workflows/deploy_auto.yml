@@ -39,4 +39,4 @@ jobs:
       run: npm install -g surge
     
     - name: Deploying surge in build folder
-      run: surge ./build http://superficial-kittens.surge.sh/ --token ${{ secrets.KEY1 }}
+      run: surge ./build http://superficial-kittens.surge.sh/ --token ${{ secrets.KEY2 }}

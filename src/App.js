@@ -12,11 +12,11 @@ let [count,setCount]=useState(0);
      <h1>Secrets token create new it can be error </h1>
      <Fun1 foodname="Chicken"/>
 
-<H1>Counter ++ =:{count}<h1>
-     <Button onClick={()=>setCount(count++)}>
+<h1>Counter ++ =:{count}</h1>
+     <button onClick={()=>setCount(count++)}>
 Update Count
-     </Button>
-    </div>
+     </button>
+    </div >
   );
 }
 

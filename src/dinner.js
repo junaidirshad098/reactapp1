@@ -5,7 +5,7 @@ function Fun1(props)
 return(
 
 <h1>
-Today we are serving {props.foodname}
+Today we are serving 1 {props.foodname}
 </h1>
 
 	)

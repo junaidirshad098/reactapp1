@@ -9,7 +9,7 @@ let [count,setCount]=useState(0);
   return (
     <div className="App">
      <h1>Hello world</h1>
-     <h1>Secrets token create new it can be error </h1>
+     <h1>Secrets token my create new it can be error </h1>
      <Fun1 foodname="Chicken"/>
 
 <h1>Counter ++ =:{count}</h1>
